@@ -1,0 +1,51 @@
+{
+    "name": "consultaDNI",
+    "protocolProfileBehavior": {
+        "disabledSystemHeaders": {
+            "content-type": true
+        }
+    },
+    "request": {
+        "method": "POST",
+        "header": [
+            {
+                "key": "Authorization",
+                "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpZCI6IlZtMTBVMUV4VlhsVGJrNVNZa1Z3VWxaclVrSlBVVDA5Iiwic2Vzc2lvbiI6IjE4MDllMGE2LWNlNTYtNDgyMi05MWYwLTJkM2I1NmI4NDMzMC42NjkzYTgxOS01ZWZiLTQxMTQtOWRiNC1mYzlhNDlhMTNhZDMiLCJleHAiOjE2MjU3MDIzNzV9.jod8pxWKlirg68idV5nsp4vuzRaYcvkArsSolvoX1NZeQQqD7O_Z5KcZKCxuM-FFU4_I425F3K6YHOAbG67zUw",
+                "type": "text"
+            },
+            {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+            }
+        ],
+        "body": {
+            "mode": "raw",
+            "raw": "{\"dni\":\"41490407\"}",
+            "options": {
+                "raw": {
+                    "language": "json"
+                }
+            }
+        },
+        "url": {
+            "raw": "http://18.117.111.252:4001/v1/consultas/reniec/premium/dni",
+            "protocol": "http",
+            "host": [
+                "18",
+                "117",
+                "111",
+                "252"
+            ],
+            "port": "4001",
+            "path": [
+                "v1",
+                "consultas",
+                "reniec",
+                "premium",
+                "dni"
+            ]
+        }
+    },
+    "response": []
+}

@@ -1,0 +1,22 @@
+{
+    "name": "accesReniec",
+    "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+            "raw": "https://cel.reniec.gob.pe/celweb/mensaje",
+            "protocol": "https",
+            "host": [
+                "cel",
+                "reniec",
+                "gob",
+                "pe"
+            ],
+            "path": [
+                "celweb",
+                "mensaje"
+            ]
+        }
+    },
+    "response": []
+}

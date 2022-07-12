@@ -1,0 +1,48 @@
+{
+    "name": "loginReniec",
+    "protocolProfileBehavior": {
+        "disabledSystemHeaders": {
+            "content-type": true
+        }
+    },
+    "request": {
+        "method": "POST",
+        "header": [
+            {
+                "key": "Content-type",
+                "value": "application/json",
+                "type": "text"
+            },
+            {
+                "key": "Authorization",
+                "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpZCI6IlZtMTBVMUV4VlhsVGJrNVNZa1Z3VWxaclVrSlBVVDA5Iiwic2Vzc2lvbiI6ImFiMTg2YzQ5LTI4NTYtNGE3Zi1iZjFhLWMwMzM5NjM5YmViMi44YmM4YTIwNy0yOWI0LTQxZjQtOTA2ZS1hNDVmNjM4YTViNDgiLCJleHAiOjE2MjI3NzY1MjF9.wpz9valBei0dKITdiSfe0A_vxBn3MivHsUxHK8JFiUGylIfsucqAVb5Da6gxAm1DO-T9cWqcuiHG6EHvh6K-qQ",
+                "type": "text"
+            }
+        ],
+        "body": {
+            "mode": "raw",
+            "raw": "{\r\n    \"email\": \"hamil@gmail.com\",\r\n    \"password\": \"123.\"\r\n}",
+            "options": {
+                "raw": {
+                    "language": "json"
+                }
+            }
+        },
+        "url": {
+            "raw": "http://18.117.111.252:4001/v1/login",
+            "protocol": "http",
+            "host": [
+                "18",
+                "117",
+                "111",
+                "252"
+            ],
+            "port": "4001",
+            "path": [
+                "v1",
+                "login"
+            ]
+        }
+    },
+    "response": []
+}

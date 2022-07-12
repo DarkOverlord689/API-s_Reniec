@@ -1,0 +1,31 @@
+{
+    "name": "consultaNombres",
+    "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+            "mode": "raw",
+            "raw": "{\r\n    \"apePaterno\":\"Mamani\",\r\n    \"apeMaterno\":\"Torres\",\r\n    \"prenombres\":\"Franco\",\r\n    \"inMenor\":\"S\",\r\n    \"edadMin\":\"14\",\r\n    \"edadMax\":\"80\",\r\n    \"coGrupoServicio\":4,\r\n    \"coServicioAsoc\":2319,\r\n    \"codUsuario\":44638,\r\n    \"coEntidad\":484\r\n    }\r\n",
+            "options": {
+                "raw": {
+                    "language": "json"
+                }
+            }
+        },
+        "url": {
+            "raw": "https://cel.reniec.gob.pe/celweb/consultaNombres",
+            "protocol": "https",
+            "host": [
+                "cel",
+                "reniec",
+                "gob",
+                "pe"
+            ],
+            "path": [
+                "celweb",
+                "consultaNombres"
+            ]
+        }
+    },
+    "response": []
+}

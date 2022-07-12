@@ -1,0 +1,31 @@
+{
+    "name": "login2Reniec",
+    "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+            "mode": "raw",
+            "raw": "{\r\n    \"coServicio\": 4,\r\n    \"cui\": \"40948131\",\r\n    \"ruc\": null,\r\n    \"credencial\": \"asdadadada\",\r\n    \"tipoAutenticacion\": \"2\",\r\n    \"coEmpresa\": null,\r\n    \"coGrupoServicio\": null,\r\n    \"gfdsfdsk\": \"03AGdBq276EGL7Y8xg106KtteIzfb_Q95hVEt7z8EnBpgjhz9P6r0FSc2qO_NAZz4Vxm__PgdgPu5RLo1HTC9ZRWwxufEh6LQllN4b5NEjTqB2b7rnzriMyG-7FyyN2CJSY4fNZ6Hzofj5J6dDURC4wCNElFh0qG87AkixepgI7dGXy3eHT1jZ1L581DgO1LW6zAwvm3MyRiAcOHNcEcEFDFvf3PgMuM2kw7PRRpOabdjGWq2qZYtnZYa3qZlrbvpVR3ppeWcxj5zcjtufa9m1tvVjinAwpy594xOdE1X5Y52X1awC1N9YZ6E5nX3vpfJBjcOxJd8k_dDX20G8cD4lUlV8EYK0_pZ_E5qTdkbSrU2YlEQEzqWvcyna6rNvnl5JbnvIdYN2oSOOLZmgS6Sp0rTdkvbQHih9Uw9b-rLv3YAFCRpa-063XTM-M5CfKuRwNUH5tp5lorJzr4X7hCqARTSlRZFx0Mc4wg\"\r\n}",
+            "options": {
+                "raw": {
+                    "language": "json"
+                }
+            }
+        },
+        "url": {
+            "raw": "https://cel.reniec.gob.pe/celweb/iniciasesion",
+            "protocol": "https",
+            "host": [
+                "cel",
+                "reniec",
+                "gob",
+                "pe"
+            ],
+            "path": [
+                "celweb",
+                "iniciasesion"
+            ]
+        }
+    },
+    "response": []
+}
